@@ -1,0 +1,10 @@
+[project]
+name = "pulsequeue-debug-practical"
+version = "0.1.0"
+description = "A small Python debugging practice"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-ra"

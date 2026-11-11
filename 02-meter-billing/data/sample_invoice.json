@@ -1,0 +1,39 @@
+{
+  "customer_id": "ACME-42",
+  "period": "2026-11",
+  "plan": {
+    "base_fee_cents": 1200,
+    "included_units": 1000,
+    "tiers": [
+      {"up_to_units": 500, "unit_price_cents": "0.80"},
+      {"up_to_units": 1500, "unit_price_cents": "0.50"},
+      {"up_to_units": null, "unit_price_cents": "0.30"}
+    ],
+    "tax_rate_bps": 875,
+    "discount_threshold_units": 2000,
+    "discount_bps": 1000
+  },
+  "events": [
+    {
+      "id": "evt-001",
+      "customer_id": "acme-42",
+      "metric": "API Requests",
+      "quantity": 1000,
+      "occurred_at": "2026-11-01T00:00:00Z"
+    },
+    {
+      "id": "evt-002",
+      "customer_id": " ACME-42 ",
+      "metric": "api requests",
+      "quantity": 800,
+      "occurred_at": "2026-11-15T12:30:00+01:00"
+    },
+    {
+      "id": "evt-003",
+      "customer_id": "acme-42",
+      "metric": "api requests",
+      "quantity": 700,
+      "occurred_at": 1796035740000
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "tickets": [
+    {
+      "id": "T-1042",
+      "subject": "Checkout fails for EU customers",
+      "priority": "P1",
+      "created_at": "2026-11-11T08:30:00Z",
+      "requester": {"language": "de"},
+      "requested_skill": "payments"
+    },
+    {
+      "id": "T-1043",
+      "subject": "Dashboard is returning stale data",
+      "priority": "P2",
+      "created_at": 1794385800,
+      "requester": {"language": "en"},
+      "requested_skill": "analytics"
+    },
+    {
+      "id": "T-1044",
+      "subject": "Security alert requires investigation",
+      "priority": "urgent",
+      "created_at": "2026-11-11T09:00:00Z",
+      "requester": {"language": "en"},
+      "requested_skill": "security"
+    }
+  ],
+  "agents": [
+    {
+      "id": "A-ana",
+      "skills": ["payments", "security"],
+      "languages": ["en", "de"],
+      "capacity_minutes": 60
+    },
+    {
+      "id": "A-bo",
+      "skills": ["analytics", "security"],
+      "languages": ["en"],
+      "capacity_minutes": 50
+    },
+    {
+      "id": "A-cy",
+      "skills": ["payments", "analytics"],
+      "languages": ["en", "fr"],
+      "capacity_minutes": 90
+    }
+  ]
+}
